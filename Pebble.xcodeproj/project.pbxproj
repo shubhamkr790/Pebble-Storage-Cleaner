@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A02FA7E8A5295A56946BF0 /* PermissionPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BAD91A4D8B61814CD5FD6E /* PermissionPromptView.swift */; };
+		0A0EF32CABF5FE57439D8DCF /* ScreenshotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBF0FD475DFDB166B8F50C /* ScreenshotsView.swift */; };
+		1059CB3E04B7D888262B2E81 /* PebbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D649D54882548D601FA736 /* PebbleApp.swift */; };
+		112F98621A230046800F4360 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3104F5F6AEFB90E62FCDE01 /* ContactsViewModel.swift */; };
+		11D2162BC516230E34FB4A24 /* PermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2E3EB0432EF956A096E62B /* PermissionService.swift */; };
+		12C94431BE8DEBE7D83FAC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC3BF266232B952045CDDA8 /* Assets.xcassets */; };
+		165767B745FD29A0C9FFDD87 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CFA352A2FBD206912081C4 /* OnboardingView.swift */; };
+		21810674FCD892C6DC5B0452 /* PhotoGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A505727B29E3A822B5C72D /* PhotoGroup.swift */; };
+		3B941BA45A385AB42DEA411A /* PebbleTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EB45872DA93CFE86C7F443 /* PebbleTypography.swift */; };
+		40035AE6611DD6726D9CA41D /* ScreenshotsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A471C8BCDA25C2AA0D9A0E34 /* ScreenshotsViewModel.swift */; };
+		5E79AC389E5CD69399B43674 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E631516C24AC294A3A3FAF /* DashboardView.swift */; };
+		670D8BCC3C3D4687292D66E6 /* CleanupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DF11121E9269F1B44C745 /* CleanupService.swift */; };
+		6B3CD1491B895C505D4A501C /* PhotoScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3194DE124E4F842C2A0FC6 /* PhotoScanService.swift */; };
+		703795F57E15879F4F527C31 /* DuplicateContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B0798A0976B7FBC3419340 /* DuplicateContactsView.swift */; };
+		7089C430B047849D35CFC6C4 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDF8663013A81770D207F50 /* CategoryCardView.swift */; };
+		74AC40C4E89F737398FBB8F1 /* SimilarPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB8CBB848802C1EE14C85ED /* SimilarPhotosView.swift */; };
+		78EEE67D10CAEAE4223449B6 /* SimilarPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D30618EEDE62134D6CBD10 /* SimilarPhotosViewModel.swift */; };
+		7A876E65447D594A40803AF8 /* AssetThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1C088959E6690B63635379 /* AssetThumbnailView.swift */; };
+		7AE57EFA79595CCDC8CF75D0 /* DuplicateContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054982F3A5A0C3AACDF31764 /* DuplicateContact.swift */; };
+		7D5A017CAF8C0B90EAF70970 /* FloatingDockBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8E345154ED53375984FD23 /* FloatingDockBar.swift */; };
+		87C42CF1A8EC2CECE32CCD6E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55054C94C246BF0CB06FF0E5 /* OnboardingViewModel.swift */; };
+		8CD5620ADEFB089A1DDB5651 /* LargeVideosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7356568968A10E44DC936E49 /* LargeVideosViewModel.swift */; };
+		9B2C13CAA5AD0E2BEB1287D3 /* LargeVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10900168EFFB60D2136822 /* LargeVideosView.swift */; };
+		9D9545164B1E960C0DBBD1B9 /* ContactScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDA15DB8DE96873D0FBC1DD /* ContactScanService.swift */; };
+		A406DEF82EE8D3A413D25ACD /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDB828F1238B9C4966BFCFD /* DashboardViewModel.swift */; };
+		AA11BB22CC33DD44EE55FF07 /* BlurDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF01 /* BlurDetectionService.swift */; };
+		AA11BB22CC33DD44EE55FF08 /* VideoCompressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF02 /* VideoCompressionService.swift */; };
+		AA11BB22CC33DD44EE55FF09 /* BlurryPhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF03 /* BlurryPhotosViewModel.swift */; };
+		AA11BB22CC33DD44EE55FF0A /* SwipeReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF04 /* SwipeReviewViewModel.swift */; };
+		AA11BB22CC33DD44EE55FF0B /* BlurryPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF05 /* BlurryPhotosView.swift */; };
+		AA11BB22CC33DD44EE55FF0C /* SwipeReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11BB22CC33DD44EE55FF06 /* SwipeReviewView.swift */; };
+		B19884AD211C6FC36934B9C7 /* PebbleColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969C679820659DA1AE2D79EC /* PebbleColors.swift */; };
+		C182875C61761DE21D0CF44B /* StorageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BA633F528A68931E240456 /* StorageInfo.swift */; };
+		CB4D33B1D750E54EC220C7EB /* PebbleComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CFBB4A4DAB4DFCCDAA1DC /* PebbleComponents.swift */; };
+		D1FCEB15804F4246EBD09E7D /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C682064F8EEDFA0E55F5C0D3 /* StorageService.swift */; };
+		D6FB096AD364B670D6E1B71B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = ADC445195D8594EC5265D1DC /* PrivacyInfo.xcprivacy */; };
+		D80F0717D9CFED78A9B9827A /* CleanupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453B226D167ED92677A2F91B /* CleanupItem.swift */; };
+		E458EF9477203E50604C4F93 /* ReviewCleanupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC6A4095D8E9ECFC9983648 /* ReviewCleanupView.swift */; };
+		E59AA67E0F33D612D305A929 /* VideoScanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1111DB4F426DCE6159B3F3E /* VideoScanService.swift */; };
+		F86F2D201D5E47A0686B9598 /* StorageRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B64481A947D87A5EE3C3E4C /* StorageRingView.swift */; };
+		FFAE20C182D7FC257BAF8292 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7788416E92D74FAD6E85EBB3 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		054982F3A5A0C3AACDF31764 /* DuplicateContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateContact.swift; sourceTree = "<group>"; };
+		07CFA352A2FBD206912081C4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		07D30618EEDE62134D6CBD10 /* SimilarPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarPhotosViewModel.swift; sourceTree = "<group>"; };
+		0F2E3EB0432EF956A096E62B /* PermissionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionService.swift; sourceTree = "<group>"; };
+		22EB45872DA93CFE86C7F443 /* PebbleTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleTypography.swift; sourceTree = "<group>"; };
+		388CFBB4A4DAB4DFCCDAA1DC /* PebbleComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleComponents.swift; sourceTree = "<group>"; };
+		3B64481A947D87A5EE3C3E4C /* StorageRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageRingView.swift; sourceTree = "<group>"; };
+		453B226D167ED92677A2F91B /* CleanupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupItem.swift; sourceTree = "<group>"; };
+		4BC3BF266232B952045CDDA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EDB828F1238B9C4966BFCFD /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		525B6C2837BC424849EEC853 /* Pebble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pebble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55054C94C246BF0CB06FF0E5 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		64A505727B29E3A822B5C72D /* PhotoGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGroup.swift; sourceTree = "<group>"; };
+		71BAD91A4D8B61814CD5FD6E /* PermissionPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionPromptView.swift; sourceTree = "<group>"; };
+		7356568968A10E44DC936E49 /* LargeVideosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeVideosViewModel.swift; sourceTree = "<group>"; };
+		7788416E92D74FAD6E85EBB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CEDDC1636383C9D7829CC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		969C679820659DA1AE2D79EC /* PebbleColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleColors.swift; sourceTree = "<group>"; };
+		9EDF8663013A81770D207F50 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		A471C8BCDA25C2AA0D9A0E34 /* ScreenshotsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsViewModel.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF01 /* BlurDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurDetectionService.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF02 /* VideoCompressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCompressionService.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF03 /* BlurryPhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurryPhotosViewModel.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF04 /* SwipeReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeReviewViewModel.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF05 /* BlurryPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurryPhotosView.swift; sourceTree = "<group>"; };
+		AA11BB22CC33DD44EE55FF06 /* SwipeReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeReviewView.swift; sourceTree = "<group>"; };
+		ADC445195D8594EC5265D1DC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		AE10900168EFFB60D2136822 /* LargeVideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeVideosView.swift; sourceTree = "<group>"; };
+		B3BA633F528A68931E240456 /* StorageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageInfo.swift; sourceTree = "<group>"; };
+		BBB8CBB848802C1EE14C85ED /* SimilarPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarPhotosView.swift; sourceTree = "<group>"; };
+		BDDA15DB8DE96873D0FBC1DD /* ContactScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScanService.swift; sourceTree = "<group>"; };
+		BFC6A4095D8E9ECFC9983648 /* ReviewCleanupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewCleanupView.swift; sourceTree = "<group>"; };
+		C1111DB4F426DCE6159B3F3E /* VideoScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoScanService.swift; sourceTree = "<group>"; };
+		C28DF11121E9269F1B44C745 /* CleanupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanupService.swift; sourceTree = "<group>"; };
+		C4CBF0FD475DFDB166B8F50C /* ScreenshotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsView.swift; sourceTree = "<group>"; };
+		C5B0798A0976B7FBC3419340 /* DuplicateContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuplicateContactsView.swift; sourceTree = "<group>"; };
+		C682064F8EEDFA0E55F5C0D3 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		D3104F5F6AEFB90E62FCDE01 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		E4D649D54882548D601FA736 /* PebbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PebbleApp.swift; sourceTree = "<group>"; };
+		EC8E345154ED53375984FD23 /* FloatingDockBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingDockBar.swift; sourceTree = "<group>"; };
+		F5E631516C24AC294A3A3FAF /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FB1C088959E6690B63635379 /* AssetThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetThumbnailView.swift; sourceTree = "<group>"; };
+		FC3194DE124E4F842C2A0FC6 /* PhotoScanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoScanService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		062975B213E28F94321BA3B3 /* Pebble */ = {
+			isa = PBXGroup;
+			children = (
+				4BC3BF266232B952045CDDA8 /* Assets.xcassets */,
+				7788416E92D74FAD6E85EBB3 /* ContentView.swift */,
+				7CEDDC1636383C9D7829CC90 /* Info.plist */,
+				E4D649D54882548D601FA736 /* PebbleApp.swift */,
+				ADC445195D8594EC5265D1DC /* PrivacyInfo.xcprivacy */,
+				5B7E36D81FB4C2D62229D3E1 /* DesignSystem */,
+				353659A41EC31E91B6084DAE /* Models */,
+				E3011E3D95FF702274A78486 /* Services */,
+				C65D46FA961D88233E6E8FD7 /* ViewModels */,
+				585D6402A39C55431F76DBA1 /* Views */,
+			);
+			path = Pebble;
+			sourceTree = "<group>";
+		};
+		0E95EB40E4ABA8ED4510D450 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9EDF8663013A81770D207F50 /* CategoryCardView.swift */,
+				F5E631516C24AC294A3A3FAF /* DashboardView.swift */,
+				3B64481A947D87A5EE3C3E4C /* StorageRingView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		0E9BC45C0A4CF404691DF03C /* Cleanup */ = {
+			isa = PBXGroup;
+			children = (
+				BFC6A4095D8E9ECFC9983648 /* ReviewCleanupView.swift */,
+			);
+			path = Cleanup;
+			sourceTree = "<group>";
+		};
+		270C60B279A0E3AA23547351 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				AE10900168EFFB60D2136822 /* LargeVideosView.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		353659A41EC31E91B6084DAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				453B226D167ED92677A2F91B /* CleanupItem.swift */,
+				054982F3A5A0C3AACDF31764 /* DuplicateContact.swift */,
+				64A505727B29E3A822B5C72D /* PhotoGroup.swift */,
+				B3BA633F528A68931E240456 /* StorageInfo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		478A0E06E09C12C40C7BE97C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				BBB8CBB848802C1EE14C85ED /* SimilarPhotosView.swift */,
+				AA11BB22CC33DD44EE55FF05 /* BlurryPhotosView.swift */,
+				AA11BB22CC33DD44EE55FF06 /* SwipeReviewView.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		4C5A412D5B62F57F53E33BC1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				07CFA352A2FBD206912081C4 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		585D6402A39C55431F76DBA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E9BC45C0A4CF404691DF03C /* Cleanup */,
+				BB20ECBAF29D10EAB1327D79 /* Contacts */,
+				0E95EB40E4ABA8ED4510D450 /* Dashboard */,
+				4C5A412D5B62F57F53E33BC1 /* Onboarding */,
+				478A0E06E09C12C40C7BE97C /* Photos */,
+				86DA8710FAC99A0C9AB7EBDD /* Screenshots */,
+				5BA5BB518D2AD3D93A177324 /* Shared */,
+				270C60B279A0E3AA23547351 /* Videos */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B7E36D81FB4C2D62229D3E1 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				969C679820659DA1AE2D79EC /* PebbleColors.swift */,
+				388CFBB4A4DAB4DFCCDAA1DC /* PebbleComponents.swift */,
+				22EB45872DA93CFE86C7F443 /* PebbleTypography.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		5BA5BB518D2AD3D93A177324 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FB1C088959E6690B63635379 /* AssetThumbnailView.swift */,
+				EC8E345154ED53375984FD23 /* FloatingDockBar.swift */,
+				71BAD91A4D8B61814CD5FD6E /* PermissionPromptView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		86DA8710FAC99A0C9AB7EBDD /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				C4CBF0FD475DFDB166B8F50C /* ScreenshotsView.swift */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		9A4D66E88C88DCA5816CDDD6 = {
+			isa = PBXGroup;
+			children = (
+				062975B213E28F94321BA3B3 /* Pebble */,
+				AF0F3C87A78534DD5731D0FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF0F3C87A78534DD5731D0FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525B6C2837BC424849EEC853 /* Pebble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB20ECBAF29D10EAB1327D79 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				C5B0798A0976B7FBC3419340 /* DuplicateContactsView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		C65D46FA961D88233E6E8FD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D3104F5F6AEFB90E62FCDE01 /* ContactsViewModel.swift */,
+				4EDB828F1238B9C4966BFCFD /* DashboardViewModel.swift */,
+				7356568968A10E44DC936E49 /* LargeVideosViewModel.swift */,
+				55054C94C246BF0CB06FF0E5 /* OnboardingViewModel.swift */,
+				A471C8BCDA25C2AA0D9A0E34 /* ScreenshotsViewModel.swift */,
+				07D30618EEDE62134D6CBD10 /* SimilarPhotosViewModel.swift */,
+				AA11BB22CC33DD44EE55FF03 /* BlurryPhotosViewModel.swift */,
+				AA11BB22CC33DD44EE55FF04 /* SwipeReviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E3011E3D95FF702274A78486 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C28DF11121E9269F1B44C745 /* CleanupService.swift */,
+				BDDA15DB8DE96873D0FBC1DD /* ContactScanService.swift */,
+				0F2E3EB0432EF956A096E62B /* PermissionService.swift */,
+				FC3194DE124E4F842C2A0FC6 /* PhotoScanService.swift */,
+				C682064F8EEDFA0E55F5C0D3 /* StorageService.swift */,
+				C1111DB4F426DCE6159B3F3E /* VideoScanService.swift */,
+				AA11BB22CC33DD44EE55FF01 /* BlurDetectionService.swift */,
+				AA11BB22CC33DD44EE55FF02 /* VideoCompressionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037474DC2665A1DA6658118D /* Pebble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBEA03CB991FC899CF9761E5 /* Build configuration list for PBXNativeTarget "Pebble" */;
+			buildPhases = (
+				44369F94884C5DE3C54CF776 /* Sources */,
+				1A900947E4FDF014CCC56663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pebble;
+			packageProductDependencies = (
+			);
+			productName = Pebble;
+			productReference = 525B6C2837BC424849EEC853 /* Pebble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A577B38AEE490E51C0730E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					037474DC2665A1DA6658118D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E80D20CE9FEA08CB0A946EC7 /* Build configuration list for PBXProject "Pebble" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9A4D66E88C88DCA5816CDDD6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AF0F3C87A78534DD5731D0FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037474DC2665A1DA6658118D /* Pebble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A900947E4FDF014CCC56663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12C94431BE8DEBE7D83FAC8B /* Assets.xcassets in Resources */,
+				D6FB096AD364B670D6E1B71B /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44369F94884C5DE3C54CF776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A876E65447D594A40803AF8 /* AssetThumbnailView.swift in Sources */,
+				7089C430B047849D35CFC6C4 /* CategoryCardView.swift in Sources */,
+				D80F0717D9CFED78A9B9827A /* CleanupItem.swift in Sources */,
+				670D8BCC3C3D4687292D66E6 /* CleanupService.swift in Sources */,
+				9D9545164B1E960C0DBBD1B9 /* ContactScanService.swift in Sources */,
+				112F98621A230046800F4360 /* ContactsViewModel.swift in Sources */,
+				FFAE20C182D7FC257BAF8292 /* ContentView.swift in Sources */,
+				5E79AC389E5CD69399B43674 /* DashboardView.swift in Sources */,
+				A406DEF82EE8D3A413D25ACD /* DashboardViewModel.swift in Sources */,
+				7AE57EFA79595CCDC8CF75D0 /* DuplicateContact.swift in Sources */,
+				703795F57E15879F4F527C31 /* DuplicateContactsView.swift in Sources */,
+				7D5A017CAF8C0B90EAF70970 /* FloatingDockBar.swift in Sources */,
+				9B2C13CAA5AD0E2BEB1287D3 /* LargeVideosView.swift in Sources */,
+				8CD5620ADEFB089A1DDB5651 /* LargeVideosViewModel.swift in Sources */,
+				165767B745FD29A0C9FFDD87 /* OnboardingView.swift in Sources */,
+				87C42CF1A8EC2CECE32CCD6E /* OnboardingViewModel.swift in Sources */,
+				1059CB3E04B7D888262B2E81 /* PebbleApp.swift in Sources */,
+				B19884AD211C6FC36934B9C7 /* PebbleColors.swift in Sources */,
+				CB4D33B1D750E54EC220C7EB /* PebbleComponents.swift in Sources */,
+				3B941BA45A385AB42DEA411A /* PebbleTypography.swift in Sources */,
+				07A02FA7E8A5295A56946BF0 /* PermissionPromptView.swift in Sources */,
+				11D2162BC516230E34FB4A24 /* PermissionService.swift in Sources */,
+				21810674FCD892C6DC5B0452 /* PhotoGroup.swift in Sources */,
+				6B3CD1491B895C505D4A501C /* PhotoScanService.swift in Sources */,
+				E458EF9477203E50604C4F93 /* ReviewCleanupView.swift in Sources */,
+				0A0EF32CABF5FE57439D8DCF /* ScreenshotsView.swift in Sources */,
+				40035AE6611DD6726D9CA41D /* ScreenshotsViewModel.swift in Sources */,
+				74AC40C4E89F737398FBB8F1 /* SimilarPhotosView.swift in Sources */,
+				78EEE67D10CAEAE4223449B6 /* SimilarPhotosViewModel.swift in Sources */,
+				C182875C61761DE21D0CF44B /* StorageInfo.swift in Sources */,
+				F86F2D201D5E47A0686B9598 /* StorageRingView.swift in Sources */,
+				D1FCEB15804F4246EBD09E7D /* StorageService.swift in Sources */,
+				E59AA67E0F33D612D305A929 /* VideoScanService.swift in Sources */,
+				AA11BB22CC33DD44EE55FF07 /* BlurDetectionService.swift in Sources */,
+				AA11BB22CC33DD44EE55FF08 /* VideoCompressionService.swift in Sources */,
+				AA11BB22CC33DD44EE55FF09 /* BlurryPhotosViewModel.swift in Sources */,
+				AA11BB22CC33DD44EE55FF0A /* SwipeReviewViewModel.swift in Sources */,
+				AA11BB22CC33DD44EE55FF0B /* BlurryPhotosView.swift in Sources */,
+				AA11BB22CC33DD44EE55FF0C /* SwipeReviewView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03662ABC28BE4E0C296556A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK6TACAW7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Pebble/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pebble;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pebble.storagecleaner;
+				PRODUCT_NAME = Pebble;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		36910C7D79BAA1C907E92C1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKK6TACAW7;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Pebble/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pebble;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pebble.storagecleaner;
+				PRODUCT_NAME = Pebble;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4584B602145A5FFA0B2325B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Pebble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FCB76B51E747D79E165FE521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Pebble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBEA03CB991FC899CF9761E5 /* Build configuration list for PBXNativeTarget "Pebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36910C7D79BAA1C907E92C1C /* Debug */,
+				03662ABC28BE4E0C296556A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E80D20CE9FEA08CB0A946EC7 /* Build configuration list for PBXProject "Pebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4584B602145A5FFA0B2325B6 /* Debug */,
+				FCB76B51E747D79E165FE521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A577B38AEE490E51C0730E /* Project object */;
+}

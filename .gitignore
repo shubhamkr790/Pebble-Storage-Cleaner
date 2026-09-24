@@ -1,0 +1,25 @@
+# OS & Editor
+.DS_Store
+*/.DS_Store
+*.swp
+*~
+
+# Xcode
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xcbkptlist
+
+# SPM & Workspace user data
+.swiftpm/xcode
+project.xcworkspace/xcuserdata/
